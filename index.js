@@ -22,7 +22,6 @@ app.use(
   cors({
     origin: ["https://jobvista-vik.vercel.app", "http://localhost:5173"],
     methods: ["GET", "POST"],
-    credentials: true,
   })
 );
 
